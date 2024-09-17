@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sai Koushik</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sai Koushik Yenugonda</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Tools</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact">Certificates</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sai Koushik</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Tools</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li><a href="#Certificates" onclick="toggleMenu()">Certificates</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <style>
+        .section__pic-container {
+          border-radius: 50%;
+          overflow: hidden;
+        }
+        .play-button {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          cursor: pointer;
+        }
+      </style>
+      <div class="section__pic-container">
+        <img src="icons/assets/profile1.jpg" alt="saikoushik profile picture" style="width: 100%; height: 160%; object-fit: cover;" 
+        onclick="window.open('https://www.youtube.com/watch?v=wiMMr-rmrWM')"/>
+        <a onclick="window.open('https://www.youtube.com/watch?v=wiMMr-rmrWM')" class="play-button">
+          <!-- Use your play button icon or an image here -->
+          
+        </a>
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sai Koushik </h1>
+        <p class="section__text__p2">Data Analyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/RAVINA_KARNIK_RESUME.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="icons/assets/linkedin.jpg"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/saikoushik2716')"
+            />
+          <img
+            src="icons/assets/github.jpg"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/sai-koushik-27')"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="circular-image">
+          <img
+            src="icons/assets/profile2.jpg" 
+            alt="Profile picture"
+            class="about-pic"
+            height="500px"
+            width="350px"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <!-- <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1 year <br />Teaching Industry</p>
+            </div> -->
+            <div class="details-container">
+              <img
+                src="icons/assets/education.jpg"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors of Technology<br />(Electronics and Communication Engineering)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>🌐 Welcome to My World of Versatility!
+        
+              <br>💻 Technical Skills: Proficient in Power BI, Excel, statistics, SQL, and Python/Pandas, with a focus on data analysis and visualization.
+              
+              <br>🎯 Professional Focus: Passionate about transforming complex data into actionable insights to drive strategic decision-making and deliver impactful business solutions. 
+              <br>🚀 Continuous Learning: Committed to staying updated with the latest tools and techniques in data analytics to continually improve and deliver high-quality results.
+
+              <br>🗣 Collaboration & Communication: Effective at communicating data-driven insights to both technical and non-technical stakeholders, ensuring alignment and clarity.
+              <br>Now, I'm eager to connect with fellow Data Analytics professionals.
+               <br>If you're seeking a dedicated and enthusiastic team member,
+                let's chat and explore the possibilities for success.🤝✨</p>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="icons/assets/arrow.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore</p>
+      <h1 class="title">My Tools</h1>
+      <div class="experience-details-container">
+        <div class=" about-containers">
+          <div class="details-container d-flex flex-column justify-content-center">
+            <h2 class="experience-sub-title">Data Analytics</h2>
+            <div class="article-container ">
+              <article>
+                <img
+                  src="icons/assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Excel</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="icons/assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Microsoft Power BI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="icons/assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="icons/assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python / Pandas</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="icons/assets/checkmark.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Statistics</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              
+
+            </div>
+          </div>
+          <!-- <div class="details-container">
+            <h2 class="experience-sub-title">Machine Learning - Deep Learning</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pandas / NumPy</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Scikit-Learn</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Seaborn</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Statistics</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">ML-Ops</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git / Git-Hub</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Streamlit</h3>
+                  <p>Basic</p>
+                </div>
+              </article> -->
+
+            </div>
+          </div> 
+        </div>
+      </div>
+      <img
+        src="icons/assets/arrow.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="icons/assets/da.jpg"
+                alt="Data analysis"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Data Analytics</h2>
+            <div class="arrowc-container">
+                <img 
+                  src="icons/assets/arrow-right.jpg"
+                  alt="arrow-right" 
+                  class="next"
+                  onclick="location.href='da.html', target='_blank'">
+            </div>
+          </div>
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/ml.png"
+                alt="machine Learning"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Machine Learning</h2>
+            <div class="btn-container">
+              <img 
+                  src="./assets/arrow-right.png"
+                  alt="arrow-right" 
+                  class="next"
+                  onclick="location.href='ml.html', target='_blank'">
+            </div>
+          </div> -->
+          <!-- <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/dl.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Deep Learning</h2>
+            <div class="btn-container">
+              <img 
+              src="./assets/arrow-right.png"
+              alt="arrow-right" 
+              class="next"
+              onclick="location.href='dl.html', target='_blank'">
+              
+            </div> -->
+          </div>
+        </div>
+      </div>
+      <img
+        src="icons/assets/arrow.jpg"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="icons/assets/email.jpg"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:karnikravina10@gmail.com">saikoushik2716@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="icons/assets/linkedin.jpg"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a onclick="window.open('https://www.linkedin.com/in/saikoushik2716')">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="icons/assets/certificates.jpg"
+            alt="certficates icon"
+            class="icon contact-icon"
+
+          />
+          <p><a onclick="location.href='ca.html', target='_blank'">Certificates</a></p>
+        </div>
+      </div>
+    </section>
+
+    
+    <img
+    src="icons/assets/arrow.jpg"
+    alt="Arrow icon"
+    class="icon arrow"
+    onclick="location.href='./#contact'"
+  />
+</section>
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Tools</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>&#10024 Crafted with curiosity &#128640 &#169; 2024 Sai koushik</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
